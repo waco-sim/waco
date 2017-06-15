@@ -2,7 +2,7 @@
 
 Radio communication remains the primary battery consuming activity in wireless systems. Advances in MAC protocols have enabled significant lifetime improvements, but in systems with low data rate, idle listening, and other communication artifacts can begin to dominate costs. One proposal to combat this is the addition of a second, extremely low power radio component that is always-on. As a consequence of the extremely low power, such radios are incapable of decoding general data, and thus are often delegated the task of listening for a trigger, leading to the terminology wake-up radio, as this extremely low power radio is used to wake up a higher power radio, which is then used for data communication. While wake-up technology has been steadily evolving over the last decade in the hardware arena, few protocols have been developed to exploit it. 
 
-**WaCo**  is an extension to Contiki and COOJA and allows exploration of the capabilities of the wake-up radio from the desktop environment. It can be used with the standard data collection protocols such as Contiki Collect or RPL.
+**WaCo**  is an extension to Contiki and COOJA and allows exploration of the capabilities of the wake-up radio from the desktop environment. It can be used with the standard data collection protocols such as Contiki Collect or RPL. WaCo also provides a straightforward MAC module, `core/net/mac/wurrdc.c`, which uses the WuR as a trigger for the standard CC2420 radio, and offers the same interface as other popular MAC protocols, allowing it to easily sit below standard routing protocols mentioned above.
 
 # Getting Started
 
@@ -29,7 +29,7 @@ WaCo also:
 
 ### WaCo Team
 
-WaCo was extended at the [E3DA](https://e3da.fbk.eu/) at Fondazione Bruno Kessler and in collaboration with [D3S](d3s.disi.unitn.it) at University of Trento, Italy. The WaCo team consists of Timofei Istomin (timofei.istomin@unitn.it), Rajeev Piyare (http://www.rajeevpiyare.com/, rajeev.piyare@hotmail.com), and Amy Murphy (murphy@fbk.eu). Please contact us for any queries or more information.
+WaCo was developed in the [E3DA](https://e3da.fbk.eu/) group at the Fondazione Bruno Kessler and in collaboration with [D3S](d3s.disi.unitn.it) at University of Trento, Italy. The WaCo team consists of [Timofei Istomin](http://d3s.disi.unitn.it/people/list) (timofei.istomin@unitn.it), [Rajeev Piyare](http://www.rajeevpiyare.com/) (rajeev.piyare@hotmail.com), and [Amy Murphy](https://es-static.fbk.eu/people/murphy/). Please contact us with any queries or for more information.
 
 
 ### Cite
