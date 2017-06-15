@@ -1,0 +1,7 @@
+[12:09:46 - main] [Cooja.java:3172] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[12:09:46 - AWT-EventQueue-0] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux_64.config
+[12:09:46 - AWT-EventQueue-0] [Cooja.java:2886] [INFO] - External tools user settings: /home/rajeev/.cooja.user.properties
+[12:10:12 - Thread-0] [Simulation.java:426] [INFO] - Simulation random seed: 123472
+[12:10:12 - Thread-0] [Cooja.java:4260] [WARN] - Replaced [CONTIKI_DIR]/examples/PDC_ADC/PDC_board_sim/hello-world.z1 with /home/rajeev/git/wur_sim/contiki_wur/examples/PDC_ADC/PDC_board_sim/hello-world.z1 (default: /home/rajeev/git/wur_sim/contiki_wur), but could not find it. This does not have to be an error, as the file might be created later.
+[12:10:12 - Thread-0] [CompileContiki.java:140] [INFO] - > make hello-world.z1 TARGET=z1 
+[12:10:12 - Thread-0] [AbstractMspMoteType.java:154] [FATAL] - Compilation error: Bad return value

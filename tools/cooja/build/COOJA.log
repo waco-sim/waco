@@ -1,0 +1,26 @@
+[09:56:41 - main] [Cooja.java:3172] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[09:56:42 - AWT-EventQueue-0] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_macosx.config
+[09:56:42 - AWT-EventQueue-0] [Cooja.java:2886] [INFO] - External tools user settings: /Users/rajeev/.cooja.user.properties
+[09:56:56 - Thread-0] [Simulation.java:426] [INFO] - Simulation random seed: 123456
+[09:56:57 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /Users/rajeev/Downloads/WaCo/waco-wake-up-radio-cooja-simulator/examples/waco/example-unicast.sky
+[09:56:57 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /Users/rajeev/Downloads/WaCo/waco-wake-up-radio-cooja-simulator/examples/waco/example-unicast.sky
+[09:56:57 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /Users/rajeev/Downloads/WaCo/waco-wake-up-radio-cooja-simulator/examples/waco/example-unicast.sky
+[09:56:57 - Thread-0] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[09:56:57 - Thread-0] [TimeLine.java:568] [INFO] - Zoom level: 20.0 microseconds/pixel 
+[09:57:14 - AWT-EventQueue-0] [Cooja.java:2638] [INFO] - Save command cancelled by user...
+[09:58:09 - Thread-1] [Simulation.java:426] [INFO] - Simulation random seed: 123456
+[09:58:09 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /Users/rajeev/Downloads/WaCo/waco-wake-up-radio-cooja-simulator/examples/waco/example-unicast.sky
+[09:58:09 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /Users/rajeev/Downloads/WaCo/waco-wake-up-radio-cooja-simulator/examples/waco/example-unicast.sky
+[09:58:09 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /Users/rajeev/Downloads/WaCo/waco-wake-up-radio-cooja-simulator/examples/waco/example-unicast.sky
+[09:58:09 - Thread-1] [TimeLine.java:568] [INFO] - Zoom level: 20.0 microseconds/pixel 
+[09:58:16 - Thread-2] [Simulation.java:255] [INFO] - Simulation main loop started, system time: 1497513496962
+[09:58:27 - Thread-2] [Simulation.java:314] [INFO] - Simulation main loop stopped, system time: 1497513507014	Duration: 10052 ms	Simulated time 349033 ms	Ratio 34.722741742936726
+[09:58:47 - Thread-3] [Simulation.java:255] [INFO] - Simulation main loop started, system time: 1497513527142
+[09:58:49 - Thread-3] [Simulation.java:314] [INFO] - Simulation main loop stopped, system time: 1497513529552	Duration: 2410 ms	Simulated time 440035 ms	Ratio 182.58713692946057
+[09:59:18 - Thread-4] [Simulation.java:426] [INFO] - Simulation random seed: 123456
+[09:59:18 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /Users/rajeev/Downloads/WaCo/waco-wake-up-radio-cooja-simulator/examples/waco/example-runicast.sky
+[09:59:18 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /Users/rajeev/Downloads/WaCo/waco-wake-up-radio-cooja-simulator/examples/waco/example-runicast.sky
+[09:59:18 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /Users/rajeev/Downloads/WaCo/waco-wake-up-radio-cooja-simulator/examples/waco/example-runicast.sky
+[09:59:18 - Thread-4] [TimeLine.java:568] [INFO] - Zoom level: 20.0 microseconds/pixel 
+[09:59:22 - Thread-5] [Simulation.java:255] [INFO] - Simulation main loop started, system time: 1497513562283
+[09:59:27 - Thread-5] [Simulation.java:314] [INFO] - Simulation main loop stopped, system time: 1497513567799	Duration: 5516 ms	Simulated time 221447 ms	Ratio 40.14630166787527
