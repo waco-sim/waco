@@ -36,6 +36,10 @@ WaCo was developed in the [E3DA](https://e3da.fbk.eu/) group at the Fondazione B
 "WaCo: A Wake-Up Radio COOJA Extension for Simulating Ultra Low Power Radios", Rajeev Piyare, Timofei Istomin, Amy L. Murphy
 In Proceedings of the 14th International Conference on Embedded Wireless Systems and Networks (EWSN), Uppsala, Sweden, February 2017. * [PDF]
 
+WaCo has also been used in:
+"Plug into a Plant: Using a Plant Microbial Fuel Cell and a Wake-up Radio for an Energy Neutral Sensing System", Rajeev Piyare, Amy L. Murphy, Pietro Tosato, and Davide Brunelli
+To Appear In Proceedings of the Local Computer Networks Workshops (LCN Workshops), IEEE 42nd Conference on., 9th-12th October, Singapore, 2017.
+
 [PDF]: <http://www.rajeevpiyare.com/wp-content/uploads/2017/02/piyare.pdf>
 
 
