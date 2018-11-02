@@ -40,6 +40,10 @@
 #include "contiki.h"
 #include "net/rime/rime.h"
 #include <stdio.h>
+#include "node-id.h"
+#include "dev/leds.h"
+
+#define ROOT_ADDR 1
 
 /*---------------------------------------------------------------------------*/
 PROCESS(example_unicast_process, "Example unicast");
@@ -48,7 +52,7 @@ AUTOSTART_PROCESSES(&example_unicast_process);
 static void
 recv_uc(struct unicast_conn *c, const linkaddr_t *from)
 {
-  printf("Message received from %d.%d\n",
+  printf("Sink received message from %d.%d\n",
 	 from->u8[0], from->u8[1]);
 }
 /*---------------------------------------------------------------------------*/
@@ -74,11 +78,12 @@ PROCESS_THREAD(example_unicast_process, ev, data)
 
   unicast_open(&uc, 146, &unicast_callbacks);
 
+if ((node_id != ROOT_ADDR)){  
   while(1) {
     static struct etimer et;
     linkaddr_t addr;
     
-    etimer_set(&et, CLOCK_SECOND * 30);
+    etimer_set(&et, CLOCK_SECOND * 10);
     
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
 
@@ -86,10 +91,14 @@ PROCESS_THREAD(example_unicast_process, ev, data)
     addr.u8[0] = 1;
     addr.u8[1] = 0;
     if(!linkaddr_cmp(&addr, &linkaddr_node_addr)) {
+      leds_on(LEDS_RED);
       unicast_send(&uc, &addr);
+      delay_ms(50);
+      leds_off(LEDS_RED);
     }
 
   }
+}
 
   PROCESS_END();
 }
